@@ -1,5 +1,7 @@
 'use client';
 
+import Link from 'next/link';
+
 const Footer = () => {
   const quickLinks = [
     { href: '/privacy', label: 'Privacy Policy' },
@@ -18,13 +20,13 @@ const Footer = () => {
           {/* Quick Links */}
           <div className="flex space-x-6">
             {quickLinks.map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
-              className="text-gray-300 hover:text-white transition-colors duration-200 text-sm"
+                className="text-gray-300 hover:text-white transition-colors duration-200 text-sm"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </div>
         </div>

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 const CallToAction = () => {
   const benefits = [
@@ -56,7 +57,7 @@ const CallToAction = () => {
             </ul>
 
             <div>
-              <a
+              <Link
                 href="/#contact"
                 className="group inline-flex items-center px-6 py-3.5 border-2 border-white 
                 text-base font-medium text-black bg-white hover:bg-transparent hover:text-white 
@@ -71,7 +72,7 @@ const CallToAction = () => {
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

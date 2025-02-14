@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Benefits = () => {
   const challenges = [
@@ -53,7 +54,8 @@ const Benefits = () => {
               ))}
             </div>
             <div>
-              <button
+              <Link
+                href="/#contact"
                 className="group inline-flex items-center px-6 py-3.5 border-2 border-black 
                 text-base font-medium text-white bg-black hover:bg-white hover:text-black 
                 transition-all duration-200 shadow-sm hover:shadow-md"
@@ -67,7 +69,7 @@ const Benefits = () => {
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg>
-              </button>
+              </Link>
             </div>
           </div>
         </div>

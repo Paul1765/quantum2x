@@ -19,15 +19,87 @@ const BlogPage = () => {
       excerpt: "Learn how businesses are leveraging AI to provide exceptional customer service, from chatbots to personalized experiences.",
       image: "/images/cs5.png",
       date: "2024-01-10",
-      slug: "customer-service-ai"
+      slug: "article128735ai"
     },
     {
       id: 3,
-      title: "Implementing AI in Your Marketing Strategy",
-      excerpt: "Explore practical ways to integrate AI into your marketing efforts to improve targeting, personalization, and ROI.",
-      image: "/images/cs1.png",
-      date: "2024-01-05",
-      slug: "ai-marketing-strategy"
+      title: "Future of AI in Business Analytics",
+      excerpt: "Exploring how artificial intelligence is reshaping the landscape of business analytics and decision-making processes in modern enterprises.",
+      image: "/images/ar1.jpg",
+      date: "2024-01-08",
+      slug: "article884510ai"
+    },
+    {
+      id: 4,
+      title: "AI-Powered Supply Chain Optimization",
+      excerpt: "Transforming supply chain management with artificial intelligence for enhanced efficiency and predictability.",
+      image: "/images/ar2.jpg",
+      date: "2024-01-06",
+      slug: "article418705ai"
+    },
+    {
+      id: 5,
+      title: "AI in Healthcare Innovation",
+      excerpt: "Revolutionizing healthcare delivery and patient care through artificial intelligence applications.",
+      image: "/images/ar3.jpg",
+      date: "2024-01-04",
+      slug: "article855187ai"
+    },
+    {
+      id: 6,
+      title: "AI-Driven Financial Planning",
+      excerpt: "How artificial intelligence is transforming financial planning and wealth management strategies.",
+      image: "/images/ar4.jpg",
+      date: "2024-01-02",
+      slug: "article871831ai"
+    },
+    {
+      id: 7,
+      title: "AI in Manufacturing: Smart Factories",
+      excerpt: "Exploring the impact of artificial intelligence on modern manufacturing processes and industry automation.",
+      image: "/images/ar5.jpg",
+      date: "2023-12-30",
+      slug: "article370876ai"
+    },
+    {
+      id: 8,
+      title: "AI-Enhanced Cybersecurity",
+      excerpt: "How artificial intelligence is revolutionizing cybersecurity and threat detection in the digital age.",
+      image: "/images/ar6.jpg",
+      date: "2023-12-28",
+      slug: "article868855ai"
+    },
+    {
+      id: 9,
+      title: "AI in Education Technology",
+      excerpt: "Transforming learning experiences through artificial intelligence and personalized education.",
+      image: "/images/ar7.jpg",
+      date: "2023-12-26",
+      slug: "article421966ai"
+    },
+    {
+      id: 10,
+      title: "AI in Renewable Energy",
+      excerpt: "How artificial intelligence is optimizing renewable energy systems and accelerating sustainable development.",
+      image: "/images/ar8.jpg",
+      date: "2023-12-24",
+      slug: "article631977ai"
+    },
+    {
+      id: 11,
+      title: "AI in Agriculture",
+      excerpt: "Revolutionizing farming practices with artificial intelligence and precision agriculture.",
+      image: "/images/ar9.jpg",
+      date: "2023-12-22",
+      slug: "article851471ai"
+    },
+    {
+      id: 12,
+      title: "AI in Transportation",
+      excerpt: "The future of mobility: How artificial intelligence is reshaping transportation and logistics.",
+      image: "/images/ar10.jpg",
+      date: "2023-12-20",
+      slug: "article519581ai"
     }
   ];
 

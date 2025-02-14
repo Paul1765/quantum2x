@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Solutions = () => {
   const solutions = [
@@ -87,7 +88,7 @@ const Solutions = () => {
         </div>
 
         <div className="mt-12 text-center">
-          <a
+          <Link
             href="/#contact"
             className="group inline-flex items-center px-6 py-3.5 border-2 border-black 
             text-base font-medium text-white bg-black hover:bg-white hover:text-black 
@@ -102,7 +103,7 @@ const Solutions = () => {
             >
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
             </svg>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

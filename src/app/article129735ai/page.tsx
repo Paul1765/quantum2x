@@ -1,5 +1,7 @@
 'use client';
 
+import Image from 'next/image';
+
 const Article129735ai = () => {
   return (
     <div className="w-full">
@@ -18,7 +20,7 @@ const Article129735ai = () => {
             How AI Can Help with Business-to-Business Lead Generation
           </h1>
           <p className="text-xl text-white leading-relaxed">
-            In today's fast-paced business environment, generating high-quality leads is critical for sustained growth. For small business owners, the challenge often lies in finding the time, resources, and strategies to identify and connect with potential customers effectively. That's where Artificial Intelligence (AI) can play a transformative role.
+            In today&apos;s fast-paced business environment, generating high-quality leads is critical for sustained growth. For small business owners, the challenge often lies in finding the time, resources, and strategies to identify and connect with potential customers effectively. That&apos;s where Artificial Intelligence (AI) can play a transformative role.
           </p>
         </div>
       </section>
@@ -27,15 +29,16 @@ const Article129735ai = () => {
       <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="relative h-[400px]">
-            <img 
-              src="/images/ar1.jpg" 
-              alt="AI and Business" 
-              className="rounded-lg shadow-lg w-full h-full object-cover"
+            <Image
+              src="/images/ar1.jpg"
+              alt="AI and Business"
+              fill
+              className="rounded-lg shadow-lg object-cover"
             />
           </div>
           <div className="text-gray-700 text-lg leading-relaxed">
             <p>
-              AI is no longer just a tool for large corporations with massive budgets. Small businesses can now leverage AI-driven tools to streamline their lead generation processes, save time, and improve the quality of their leads. Let's explore some practical ways AI can help with B2B lead generation and take a look at a fictional case study to see these principles in action.
+              AI is no longer just a tool for large corporations with massive budgets. Small businesses can now leverage AI-driven tools to streamline their lead generation processes, save time, and improve the quality of their leads. Let&apos;s explore some practical ways AI can help with B2B lead generation and take a look at a fictional case study to see these principles in action.
             </p>
           </div>
         </div>
@@ -60,7 +63,7 @@ const Article129735ai = () => {
             </div>
             <div>
               <h3 className="font-semibold mb-2">4. Personalized Outreach</h3>
-              <p>AI tools can craft personalized emails or messages tailored to a prospect's specific needs and interests. By analyzing a lead's online behavior and preferences, AI enables you to send content that resonates and drives engagement.</p>
+              <p>AI tools can craft personalized emails or messages tailored to a prospect&apos;s specific needs and interests. By analyzing a lead&apos;s online behavior and preferences, AI enables you to send content that resonates and drives engagement.</p>
             </div>
             <div>
               <h3 className="font-semibold mb-2">5. Chatbots and Virtual Assistants</h3>
@@ -72,7 +75,7 @@ const Article129735ai = () => {
             </div>
             <div>
               <h3 className="font-semibold mb-2">7. Data Enrichment</h3>
-              <p>AI can automatically fill in missing information about a lead, such as their company's size, revenue, or location, ensuring your CRM is always up-to-date and comprehensive.</p>
+              <p>AI can automatically fill in missing information about a lead, such as their company&apos;s size, revenue, or location, ensuring your CRM is always up-to-date and comprehensive.</p>
             </div>
           </div>
         </div>
@@ -82,10 +85,11 @@ const Article129735ai = () => {
       <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="relative h-[400px]">
-            <img 
-              src="/images/ar2.jpg" 
-              alt="Case Study" 
-              className="rounded-lg shadow-lg w-full h-full object-cover"
+            <Image
+              src="/images/ar2.jpg"
+              alt="Case Study"
+              fill
+              className="rounded-lg shadow-lg object-cover"
             />
           </div>
           <div className="text-gray-700">
@@ -113,7 +117,7 @@ const Article129735ai = () => {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-8">AI-Driven Solution</h2>
           <p className="text-gray-700 mb-6">
-            Architects & Co. implemented an AI-powered lead generation platform to tackle these challenges. Here's how it worked:
+            Architects & Co. implemented an AI-powered lead generation platform to tackle these challenges. Here&apos;s how it worked:
           </p>
           <div className="space-y-4 text-gray-700">
             <div>
@@ -122,19 +126,19 @@ const Article129735ai = () => {
             </div>
             <div>
               <h3 className="font-semibold mb-2">2. Enhanced Targeting</h3>
-              <p>Using predictive analytics, the platform identified leads most likely to value sustainable building designs—Architects & Co.'s niche offering.</p>
+              <p>Using predictive analytics, the platform identified leads most likely to value sustainable building designs—Architects & Co.&apos;s niche offering.</p>
             </div>
             <div>
               <h3 className="font-semibold mb-2">3. Automated Email Personalization</h3>
-              <p>The AI tool crafted personalized emails tailored to each lead. For example, one email to a commercial real estate developer highlighted Architects & Co.'s expertise in reducing energy costs for office buildings.</p>
+              <p>The AI tool crafted personalized emails tailored to each lead. For example, one email to a commercial real estate developer highlighted Architects & Co.&apos;s expertise in reducing energy costs for office buildings.</p>
             </div>
             <div>
               <h3 className="font-semibold mb-2">4. Real-Time Engagement</h3>
-              <p>A chatbot on the company's website answered questions from potential clients and collected key information, such as project timelines and budgets.</p>
+              <p>A chatbot on the company&apos;s website answered questions from potential clients and collected key information, such as project timelines and budgets.</p>
             </div>
             <div>
               <h3 className="font-semibold mb-2">5. Lead Scoring</h3>
-              <p>The AI platform scored each lead based on factors like company size, industry relevance, and level of engagement with Architects & Co.'s website and email campaigns.</p>
+              <p>The AI platform scored each lead based on factors like company size, industry relevance, and level of engagement with Architects & Co.&apos;s website and email campaigns.</p>
             </div>
           </div>
         </div>
@@ -144,10 +148,11 @@ const Article129735ai = () => {
       <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="relative h-[400px]">
-            <img 
-              src="/images/ar12.jpg" 
-              alt="Results" 
-              className="rounded-lg shadow-lg w-full h-full object-cover"
+            <Image
+              src="/images/ar12.jpg"
+              alt="Results"
+              fill
+              className="rounded-lg shadow-lg object-cover"
             />
           </div>
           <div className="text-gray-700">

@@ -6,8 +6,8 @@ export default function ArticleLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="min-h-screen flex flex-col">
-      <main className="flex-grow">{children}</main>
-    </div>
+    <article className="prose prose-lg max-w-4xl mx-auto px-4 py-16">
+      {children}
+    </article>
   );
 }

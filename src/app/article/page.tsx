@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const ArticlePage = () => {
   return (
@@ -21,10 +22,11 @@ const ArticlePage = () => {
           </p>
         </div>
         <div className="relative h-[400px]">
-          <img 
-            src="/images/ar1.jpg" 
-            alt="AI for Business" 
-            className="rounded-lg shadow-lg w-full h-full object-cover hover:shadow-xl transition-shadow duration-300" 
+          <Image
+            src="/images/ar1.jpg"
+            alt="AI for Business"
+            fill
+            className="rounded-lg shadow-lg object-cover hover:shadow-xl transition-shadow duration-300"
           />
         </div>
       </section>

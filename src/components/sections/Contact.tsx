@@ -1,6 +1,7 @@
-"use client";
+'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -70,15 +71,15 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-black mb-1">Email</h4>
-                  <a href="mailto:contact@aibusiness.com" className="text-blue-600 hover:text-blue-700">
+                  <Link href="mailto:info@integrate-ai.tech" className="text-blue-600 hover:text-blue-700">
                     info@integrate-ai.tech
-                  </a>
+                  </Link>
                 </div>
                 <div>
                   <h4 className="font-semibold text-black mb-1">Based in</h4>
-                  <a href="tel:+1234567890" className="text-blue-600 hover:text-blue-700">
+                  <Link href="tel:+1234567890" className="text-blue-600 hover:text-blue-700">
                     South Devon
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

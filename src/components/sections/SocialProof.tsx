@@ -18,7 +18,7 @@ const SocialProof = () => {
             </div>
             <h3 className="text-xl font-bold text-black">Revolutionized our operations with AI!</h3>
             <p className="text-gray-600 leading-relaxed">
-            Working with Paul was a game-changer. Their training sessions were hands-on and tailored to our specific needs. Thanks to their guidance, we integrated AI agents that reduced our customer support response time by 60%. The ROI was incredible – this was the smartest investment we’ve made.
+            Working with Paul was a game-changer. Their training sessions were hands-on and tailored to our specific needs. Thanks to their guidance, we integrated AI agents that reduced our customer support response time by 60%. The ROI was incredible – this was the smartest investment we've made.
             </p>
           </div>
 
@@ -52,7 +52,7 @@ const SocialProof = () => {
             </div>
             <h3 className="text-xl font-bold text-black">Exceeded all expectations!</h3>
             <p className="text-gray-600 leading-relaxed">
-            We brought in Paul to design and implement an AI-driven automation system for our content creation, and the results have been astounding. The AI agents he built handle repetitive tasks, freeing up 30% of our team’s time for high-value activities. The training he provided was easy to follow and practical. I’d work with him again in a heartbeat.
+            We brought in Paul to design and implement an AI-driven automation system for our content creation, and the results have been astounding. The AI agents he built handle repetitive tasks, freeing up 30% of our team's time for high-value activities. The training he provided was easy to follow and practical. I'd work with him again in a heartbeat.
             </p>
           </div>
         </div>

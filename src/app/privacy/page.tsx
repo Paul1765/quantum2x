@@ -10,7 +10,7 @@ export default function PrivacyPolicy() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">1. Introduction</h2>
           <p className="text-gray-700 mb-4">
-            Welcome to Integrate-AI ("Company", "we", "our", "us"). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice or our practices with regard to your personal information, please contact us at data@integrate-AI.tech.
+            Welcome to Integrate-AI (&quot;Company&quot;, &quot;we&quot;, &quot;our&quot;, &quot;us&quot;). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice or our practices with regard to your personal information, please contact us at data@integrate-AI.tech.
           </p>
         </section>
 
@@ -34,7 +34,7 @@ export default function PrivacyPolicy() {
           <ul className="list-disc pl-6 text-gray-700 space-y-2">
             <li>Providing and Managing Services: To deliver and manage our services to you.</li>
             <li>Processing Transactions: To process your payments and manage your orders.</li>
-            <li>Sending Promotional Materials or Newsletters: To send you marketing and promotional communications. You can opt-out of our marketing emails at any time (see "Your Privacy Rights" below).</li>
+            <li>Sending Promotional Materials or Newsletters: To send you marketing and promotional communications. You can opt-out of our marketing emails at any time (see &quot;Your Privacy Rights&quot; below).</li>
           </ul>
         </section>
 

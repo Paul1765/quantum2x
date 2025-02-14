@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import { Suspense } from 'react';
 import './globals.css';
 import Footer from '@/components/layout/Footer';
 import LayoutWrapper from '@/components/layout/LayoutWrapper';
@@ -19,10 +20,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} min-h-screen flex flex-col`}>
-        <main className="flex-grow">
-          <LayoutWrapper>{children}</LayoutWrapper>
-        </main>
-        <Footer />
+        <Suspense fallback={<div>Loading...</div>}>
+          <main className="flex-grow">
+            <LayoutWrapper>{children}</LayoutWrapper>
+          </main>
+          <Footer />
+        </Suspense>
       </body>
     </html>
   );

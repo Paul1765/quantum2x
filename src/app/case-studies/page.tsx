@@ -119,33 +119,33 @@ const SummarySection = () => {
           <div className="space-y-4">
             <h3 className="text-xl font-semibold text-gray-800">Efficiency & Automation</h3>
             <ul className="space-y-2 text-gray-600">
-              <li>• Automate repetitive tasks</li>
-              <li>• Reduce operational costs</li>
-              <li>• Increase productivity</li>
+              <li>&bull; Automate repetitive tasks</li>
+              <li>&bull; Reduce operational costs</li>
+              <li>&bull; Increase productivity</li>
             </ul>
           </div>
           <div className="space-y-4">
             <h3 className="text-xl font-semibold text-gray-800">Enhanced Decision Making</h3>
             <ul className="space-y-2 text-gray-600">
-              <li>• Data-driven insights</li>
-              <li>• Predictive analytics</li>
-              <li>• Risk reduction</li>
+              <li>&bull; Data-driven insights</li>
+              <li>&bull; Predictive analytics</li>
+              <li>&bull; Risk reduction</li>
             </ul>
           </div>
           <div className="space-y-4">
             <h3 className="text-xl font-semibold text-gray-800">Customer Experience</h3>
             <ul className="space-y-2 text-gray-600">
-              <li>• 24/7 customer support</li>
-              <li>• Personalized interactions</li>
-              <li>• Faster response times</li>
+              <li>&bull; 24/7 customer support</li>
+              <li>&bull; Personalized interactions</li>
+              <li>&bull; Faster response times</li>
             </ul>
           </div>
           <div className="space-y-4">
             <h3 className="text-xl font-semibold text-gray-800">Competitive Advantage</h3>
             <ul className="space-y-2 text-gray-600">
-              <li>• Market intelligence</li>
-              <li>• Innovation capabilities</li>
-              <li>• Scalable solutions</li>
+              <li>&bull; Market intelligence</li>
+              <li>&bull; Innovation capabilities</li>
+              <li>&bull; Scalable solutions</li>
             </ul>
           </div>
         </div>
@@ -165,7 +165,7 @@ const SummarySection = () => {
   );
 };
 
-export default function CaseStudies() {
+const CaseStudiesPage = () => {
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
       <div className="max-w-7xl w-full">
@@ -177,4 +177,6 @@ export default function CaseStudies() {
       </div>
     </main>
   );
-}
+};
+
+export default CaseStudiesPage;
