@@ -16,9 +16,9 @@ const SocialProof = () => {
                 className="object-contain"
               />
             </div>
-            <h3 className="text-xl font-bold text-black">Revolutionized our operations with AI!</h3>
+            <h3 className="text-xl font-bold text-black">AI Education</h3>
             <p className="text-gray-600 leading-relaxed">
-            Working with Paul was a game-changer. Their training sessions were hands-on and tailored to our specific needs. Thanks to their guidance, we integrated AI agents that reduced our customer support response time by 60%. The ROI was incredible – this was the smartest investment we've made.
+            I provide AI workshops and presentation to help businesses understand the power of AI and how to leverage it to improve their operations. I also provide hands-on training to help businesses implement AI solutions in their workflows. I look forward to working with you!
             </p>
           </div>
 
@@ -33,9 +33,9 @@ const SocialProof = () => {
                 className="object-contain"
               />
             </div>
-            <h3 className="text-xl font-bold text-black">AI training simplified and impactful!</h3>
+            <h3 className="text-xl font-bold text-black">AI Automations</h3>
             <p className="text-gray-600 leading-relaxed">
-            I was hesitant about incorporating AI into our workflows because of the perceived complexity, but Paul made it accessible and actionable. Their step-by-step training helped our team deploy AI-powered tools in just days, improving our lead-generation process by 40%. I highly recommend his expertise!
+            Implimenting AI automations to improve productivity and efficiency. I have worked with businesses to develop AI-driven automation systems that handle repetitive tasks, freeing up time for high-value activities. I can help you implement AI solutions in your business too.
             </p>
           </div>
 
@@ -50,9 +50,9 @@ const SocialProof = () => {
                 className="object-contain"
               />
             </div>
-            <h3 className="text-xl font-bold text-black">Exceeded all expectations!</h3>
+            <h3 className="text-xl font-bold text-black">AI Agents</h3>
             <p className="text-gray-600 leading-relaxed">
-            We brought in Paul to design and implement an AI-driven automation system for our content creation, and the results have been astounding. The AI agents he built handle repetitive tasks, freeing up 30% of our team's time for high-value activities. The training he provided was easy to follow and practical. I'd work with him again in a heartbeat.
+            Developing AI agents to help businesses improve customer service, administration tasks and marketing activities. I have worked with businesses to develop AI agents that can handle customer enquiries, administration functions and various types of marketing activiies. I can help you develop AI agents for your business too.
             </p>
           </div>
         </div>

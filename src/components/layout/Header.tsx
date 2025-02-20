@@ -4,66 +4,91 @@ import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { usePathname, useSearchParams } from 'next/navigation';
 
-const Header = () => {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+interface NavLink {
+  href: string;
+  label: string;
+}
+
+const Header: React.FC = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
   useEffect(() => {
-    if (searchParams.get('section') === 'contact') {
-      const contactSection = document.getElementById('contact');
-      if (contactSection) {
-        contactSection.scrollIntoView({ behavior: 'smooth' });
-        window.history.replaceState({}, '', '/');
+    let isSubscribed = true;
+    
+    const handleScroll = (): void => {
+      if (searchParams.get('section') === 'contact') {
+        const contactSection = document.getElementById('contact');
+        if (contactSection && isSubscribed) {
+          contactSection.scrollIntoView({ behavior: 'smooth' });
+          window.history.replaceState({}, '', '/');
+        }
       }
-    }
+    };
+
+    handleScroll();
+
+    return () => {
+      isSubscribed = false;
+    };
   }, [searchParams]);
 
-  const navLinks = [
+  const navLinks: NavLink[] = [
     { href: '/', label: 'Home' },
     { href: '/case-studies', label: 'Case Studies' },
     { href: '/blog', label: 'AI News' },
     { href: pathname === '/' ? '#contact' : '/?section=contact', label: 'Contact Us' },
   ];
 
+  const handleMobileMenuClick = (): void => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  const handleImageError = (e: React.SyntheticEvent<HTMLImageElement>): void => {
+    e.currentTarget.src = '/images/fallback-logo.png';
+  };
+
   return (
-    <header className="fixed w-full bg-orange-500/95 backdrop-blur-sm border-b border-orange-400 z-50">
+    <header className="fixed w-full bg-orange-500/95 backdrop-blur-sm border-b border-orange-400 z-50" role="banner">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/" className="flex items-center gap-3">
+            <Link href="/" className="flex items-center gap-3" aria-label="Home">
               <Image
                 src="/images/logo.png"
                 alt="Company Logo"
                 width={150}
                 height={40}
                 className="object-contain w-auto h-auto"
+                onError={handleImageError}
+                priority
               />
               <span className="text-xl font-bold text-white">Integrate-AI</span>
             </Link>
           </div>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-10">
+          <nav className="hidden md:flex space-x-10" role="navigation">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 className="text-gray-300 hover:text-white transition-colors duration-200 py-2"
+                aria-label={link.label}
               >
                 {link.label}
               </Link>
             ))}
           </nav>
 
-          {/* Mobile menu button */}
           <div className="md:hidden">
             <button
               type="button"
               className="text-gray-300 hover:text-white"
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              onClick={handleMobileMenuClick}
               aria-label="Toggle menu"
+              aria-expanded={isMobileMenuOpen}
+              aria-controls="mobile-menu"
             >
               <svg
                 className="h-6 w-6"
@@ -73,6 +98,7 @@ const Header = () => {
                 strokeWidth="2"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
+                aria-hidden="true"
               >
                 {isMobileMenuOpen ? (
                   <path d="M6 18L18 6M6 6l12 12" />
@@ -84,16 +110,16 @@ const Header = () => {
           </div>
         </div>
 
-        {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="md:hidden">
+          <div className="md:hidden" id="mobile-menu" role="navigation">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-orange-500/95 backdrop-blur-sm border-t border-orange-400">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
                   className="block px-3 py-2 text-gray-300 hover:text-white transition-colors duration-200"
-                  onClick={() => setIsMobileMenuOpen(false)}
+                  onClick={handleMobileMenuClick}
+                  aria-label={link.label}
                 >
                   {link.label}
                 </Link>

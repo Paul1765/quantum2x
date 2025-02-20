@@ -10,7 +10,7 @@ const BlogPage = () => {
       title: "The Beginner's Guide to AI for Small Businesses",
       excerpt: "Discover how artificial intelligence can transform your small business operations, improve efficiency, and boost profits - no technical background required.",
       image: "/images/heroimage1.jpg",
-      date: "2024-01-15",
+      date: "2025-02-20",
       slug: "article129735ai"
     },
     {
@@ -18,7 +18,7 @@ const BlogPage = () => {
       title: "5 Ways AI is Revolutionizing Customer Service",
       excerpt: "Learn how businesses are leveraging AI to provide exceptional customer service, from chatbots to personalized experiences.",
       image: "/images/cs5.png",
-      date: "2024-01-10",
+      date: "2025-02-18",
       slug: "article128735ai"
     },
     {
@@ -26,7 +26,7 @@ const BlogPage = () => {
       title: "Future of AI in Business Analytics",
       excerpt: "Exploring how artificial intelligence is reshaping the landscape of business analytics and decision-making processes in modern enterprises.",
       image: "/images/ar1.jpg",
-      date: "2024-01-08",
+      date: "2025-02-16",
       slug: "article884510ai"
     },
     {
@@ -34,7 +34,7 @@ const BlogPage = () => {
       title: "AI-Powered Supply Chain Optimization",
       excerpt: "Transforming supply chain management with artificial intelligence for enhanced efficiency and predictability.",
       image: "/images/ar2.jpg",
-      date: "2024-01-06",
+      date: "2025-02-14",
       slug: "article418705ai"
     },
     {
@@ -42,7 +42,7 @@ const BlogPage = () => {
       title: "AI in Healthcare Innovation",
       excerpt: "Revolutionizing healthcare delivery and patient care through artificial intelligence applications.",
       image: "/images/ar3.jpg",
-      date: "2024-01-04",
+      date: "2025-02-12",
       slug: "article855187ai"
     },
     {
@@ -50,7 +50,7 @@ const BlogPage = () => {
       title: "AI-Driven Financial Planning",
       excerpt: "How artificial intelligence is transforming financial planning and wealth management strategies.",
       image: "/images/ar4.jpg",
-      date: "2024-01-02",
+      date: "2025-02-10",
       slug: "article871831ai"
     },
     {
@@ -58,7 +58,7 @@ const BlogPage = () => {
       title: "AI in Manufacturing: Smart Factories",
       excerpt: "Exploring the impact of artificial intelligence on modern manufacturing processes and industry automation.",
       image: "/images/ar5.jpg",
-      date: "2023-12-30",
+      date: "2025-01-30",
       slug: "article370876ai"
     },
     {
@@ -66,7 +66,7 @@ const BlogPage = () => {
       title: "AI-Enhanced Cybersecurity",
       excerpt: "How artificial intelligence is revolutionizing cybersecurity and threat detection in the digital age.",
       image: "/images/ar6.jpg",
-      date: "2023-12-28",
+      date: "2025-01-28",
       slug: "article868855ai"
     },
     {
@@ -74,7 +74,7 @@ const BlogPage = () => {
       title: "AI in Education Technology",
       excerpt: "Transforming learning experiences through artificial intelligence and personalized education.",
       image: "/images/ar7.jpg",
-      date: "2023-12-26",
+      date: "2025-01-24",
       slug: "article421966ai"
     },
     {
@@ -82,7 +82,7 @@ const BlogPage = () => {
       title: "AI in Renewable Energy",
       excerpt: "How artificial intelligence is optimizing renewable energy systems and accelerating sustainable development.",
       image: "/images/ar8.jpg",
-      date: "2023-12-24",
+      date: "2025-01-20",
       slug: "article631977ai"
     },
     {
@@ -90,7 +90,7 @@ const BlogPage = () => {
       title: "AI in Agriculture",
       excerpt: "Revolutionizing farming practices with artificial intelligence and precision agriculture.",
       image: "/images/ar9.jpg",
-      date: "2023-12-22",
+      date: "2025-01-15",
       slug: "article851471ai"
     },
     {
@@ -98,7 +98,7 @@ const BlogPage = () => {
       title: "AI in Transportation",
       excerpt: "The future of mobility: How artificial intelligence is reshaping transportation and logistics.",
       image: "/images/ar10.jpg",
-      date: "2023-12-20",
+      date: "2025-01-10",
       slug: "article519581ai"
     }
   ];
