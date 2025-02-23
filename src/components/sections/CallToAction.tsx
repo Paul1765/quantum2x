@@ -10,7 +10,7 @@ const CallToAction = () => {
   ];
 
   return (
-    <section className="py-12 sm:py-16 bg-black text-white">
+    <section className="py-12 sm:py-16 bg-custom-dark text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Image Column */}
@@ -22,7 +22,7 @@ const CallToAction = () => {
               sizes="(min-width: 1024px) 50vw, 100vw"
               className="object-cover"
             />
-            <div className="absolute inset-0 bg-black/5" />
+            <div className="absolute inset-0 bg-custom-dark/5" />
           </div>
 
           {/* Content Column */}

@@ -50,7 +50,7 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="fixed w-full bg-orange-500/95 backdrop-blur-sm border-b border-orange-400 z-50" role="banner">
+    <header className="fixed w-full bg-[#203439]/95 backdrop-blur-sm border-b border-gray-800 z-50" role="banner">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0">
@@ -112,7 +112,7 @@ const Header: React.FC = () => {
 
         {isMobileMenuOpen && (
           <div className="md:hidden" id="mobile-menu" role="navigation">
-            <div className="px-2 pt-2 pb-3 space-y-1 bg-orange-500/95 backdrop-blur-sm border-t border-orange-400">
+            <div className="px-2 pt-2 pb-3 space-y-1 bg-[#203439]/95 backdrop-blur-sm border-t border-gray-800">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}

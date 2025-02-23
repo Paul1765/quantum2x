@@ -154,7 +154,7 @@ const Contact = () => {
                 className={`w-full px-6 py-3 font-medium rounded-md transition-colors duration-200 ${
                   isSubmitting 
                     ? 'bg-gray-400 cursor-not-allowed' 
-                    : 'bg-black hover:bg-gray-800'
+                    : 'bg-custom-dark hover:bg-gray-800'
                 } text-white`}
               >
                 {isSubmitting ? 'Sending...' : 'Send Message'}

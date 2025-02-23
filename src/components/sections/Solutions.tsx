@@ -91,7 +91,7 @@ const Solutions = () => {
           <Link
             href="/#contact"
             className="group inline-flex items-center px-6 py-3.5 border-2 border-black 
-            text-base font-medium text-white bg-black hover:bg-white hover:text-black 
+            text-base font-medium text-white bg-custom-dark hover:bg-white hover:text-custom-dark 
             transition-all duration-200 shadow-sm hover:shadow-md"
           >
             Get Started with AI Solutions

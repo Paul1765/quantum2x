@@ -63,7 +63,7 @@ const Hero = () => {
                   />
                   <button
                     type="submit"
-                    className="px-6 py-3 bg-black text-white font-medium hover:bg-gray-800 transition-colors duration-200 rounded-md whitespace-nowrap"
+                    className="px-6 py-3 bg-custom-dark text-white font-medium hover:bg-gray-800 transition-colors duration-200 rounded-md whitespace-nowrap"
                   >
                     Submit
                   </button>
@@ -86,7 +86,7 @@ const Hero = () => {
               className="object-cover"
               priority
             />
-            <div className="absolute inset-0 bg-black/5" />
+            <div className="absolute inset-0 bg-custom-dark/5" />
           </div>
         </div>
       </div>
